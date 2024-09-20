@@ -12,12 +12,10 @@ img {
 .card {
     height: 650px;
     width: 300px;
-    margin: 0 auto;
     background-color: rgb(246, 239, 232);
     padding: 15px;
     border-radius: 15px;
-    box-shadow: 0 0 50px rgb(191, 183, 166);
-    
+    box-shadow: 0 0 50px rgb(191, 183, 166);   
 }
 
 .card:hover {
@@ -26,4 +24,34 @@ img {
 
 h1 {
     margin-top: 35px;
+    color: rgb(57, 42, 28);
+}
+
+p {
+    color: gray;
+}
+
+footer {
+    margin-top: 30px;
+    text-align: center;
+    background-color: antiquewhite;
+    padding: 10px;
+    color: rgb(113, 97, 76);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(149, 77, 85)
+}
+
+a:hover {
+    color: rgb(255, 111, 135);
+}
+
+/*flexbox*/
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
