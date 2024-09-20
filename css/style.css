@@ -1,3 +1,4 @@
+/*main*/
 body {
     background-color: rgb(241, 222, 200);
     font-family: Arial, Helvetica, sans-serif;
@@ -10,7 +11,7 @@ img {
 }
 
 .card {
-    height: 650px;
+    height: 635px;
     width: 300px;
     background-color: rgb(246, 239, 232);
     padding: 15px;
@@ -22,15 +23,22 @@ img {
     box-shadow: 0 0 50px rgb(151, 144, 130);
 }
 
+hr {
+    margin: 20px 0;
+    padding: 2px solid rgb(217, 217, 217);
+}
+
 h1 {
-    margin-top: 35px;
+    margin-top: 0;
     color: rgb(57, 42, 28);
 }
 
 p {
     color: gray;
+    margin-top: -10px;
 }
 
+/*footer*/
 footer {
     margin-top: 30px;
     text-align: center;
@@ -49,7 +57,6 @@ a:hover {
 }
 
 /*flexbox*/
-
 .container {
     display: flex;
     justify-content: space-evenly;
